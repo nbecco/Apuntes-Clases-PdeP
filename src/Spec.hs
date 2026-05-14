@@ -8,10 +8,6 @@ import Test.Hspec
 correrTests :: IO ()
 correrTests = hspec $ do
   describe "Test de ejemplo" $ do
-    it "El pdepreludat se instaló correctamente" $ do
-      doble 1 `shouldBe` 2
-
-  describe "Test de ejemplo" $ do
     it "esMayorDeEdad da True cuando la persona es mayor a 18" $ do
       esMayorDeEdad ("Pepita", 19, 100) `shouldBe` True
     it "esMayorDeEdad da False cuando la persona es menor a 18" $ do
