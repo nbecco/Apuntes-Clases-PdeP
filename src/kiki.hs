@@ -84,22 +84,22 @@ condicionManiobrar2 = \paquete -> peso paquete > mitadDelicadeza paquete
 mitadDelicadeza2 :: Paquete -> Number
 mitadDelicadeza2 = \x -> delicadeza x / 2
 
---7)
-type Hechizo =  Paquete -> Paquete
+--7) ???
+-- type Hechizo =  Paquete -> Paquete
 
-reducirPeso :: Number -> Paquete -> Number
-reducirPeso x paquete = peso paquete - x
+-- reducirPeso :: Number -> Paquete -> Number
+-- reducirPeso x paquete = peso paquete - x
 
-alivianar :: Hechizo
-alivianar paquete = reducirPeso 2 paquete
+-- alivianar :: Hechizo
+-- alivianar paquete = reducirPeso 2 paquete
 
-reforzar :: Number -> Hechizo
-reforzar x = reducirPeso x
+-- reforzar :: Number -> Hechizo
+-- reforzar x = reducirPeso x
 
-hechizoPaciencia :: Hechizo
-hechizoPaciencia paquete 
-    | esUrgente paquete == True = not (esUrgente paquete)
-    | otherwise = paquete
+-- hechizoPaciencia :: Hechizo
+-- hechizoPaciencia paquete 
+--     | esUrgente paquete == True = not (esUrgente paquete)
+--     | otherwise = paquete
 
 
 --8) FALTA HACERLO (AUNQUE EL PROFE YA LO HIZO EN CLASE)
