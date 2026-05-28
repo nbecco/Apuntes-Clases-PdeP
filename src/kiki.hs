@@ -47,7 +47,7 @@ paqueteQuePuedeLlevar :: Number -> Vuelo -> Vuelo
 paqueteQuePuedeLlevar magia vuelo = filter (protegible magia) vuelo
 
 
---3) NO ES FUNDAMENTAL POR AHORA (SEGUN EL PROFE
+--3) NO ES FUNDAMENTAL POR AHORA (SEGUN EL PROFE)
 
 
 --4) 
